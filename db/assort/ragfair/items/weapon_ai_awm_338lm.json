@@ -1,0 +1,10 @@
+{
+	"_id": "weapon_ai_awm_338lm",
+	"_tpl": "weapon_ai_awm_338lm",
+	"parentId": "hideout",
+	"slotId": "hideout",
+	"upd": {
+		"UnlimitedCount": true,
+		"StackObjectsCount": 999999999
+	}
+}

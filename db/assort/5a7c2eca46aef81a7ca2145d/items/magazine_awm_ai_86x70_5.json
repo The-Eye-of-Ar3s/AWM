@@ -1,0 +1,10 @@
+{
+	"_id": "magazine_awm_ai_86x70_5",
+	"_tpl": "magazine_awm_ai_86x70_5",
+	"parentId": "hideout",
+	"slotId": "hideout",
+	"upd": {
+		"UnlimitedCount": false,
+		"StackObjectsCount": 50
+	}
+}

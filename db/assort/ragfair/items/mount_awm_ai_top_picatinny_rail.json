@@ -1,0 +1,10 @@
+{
+	"_id": "mount_awm_ai_top_picatinny_rail",
+	"_tpl": "mount_awm_ai_top_picatinny_rail",
+	"parentId": "hideout",
+	"slotId": "hideout",
+	"upd": {
+		"UnlimitedCount": true,
+		"StackObjectsCount": 999999999
+	}
+}

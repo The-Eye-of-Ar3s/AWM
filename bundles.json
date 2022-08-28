@@ -1,0 +1,112 @@
+{
+	"manifest": [
+		{
+			"key": "assets/content/items/mods/barrels/barrel_awm_ai_std_686mm.bundle",
+			"dependencyKeys": [
+				"cubemaps",
+				"assets/content/items/mods/barrels/barrel_m700_remington_heavy_threaded_508mm_lod1_tex",
+				"shaders",
+				"assets/systems/effects/smoke.bundle",
+				"assets/commonassets/physics/physicsmaterials.bundle"
+			]
+		},
+		{
+			"key": "assets/content/items/mods/barrels/barrel_awm_ai_custom_435mm.bundle",
+			"dependencyKeys": [
+				"cubemaps",
+				"assets/content/items/mods/barrels/barrel_m700_remington_heavy_threaded_508mm_lod1_tex",
+				"shaders",
+				"assets/systems/effects/smoke.bundle",
+				"assets/commonassets/physics/physicsmaterials.bundle"
+			]
+		},
+		{
+			"key": "assets/content/items/mods/magazines/magazine_awm_ai_86x70_5.bundle",
+			"dependencyKeys": [
+				"cubemaps",
+				"shaders",
+				"assets/commonassets/physics/physicsmaterials.bundle"
+			]
+		},
+		{
+			"key": "assets/content/items/mods/mounts/mount_awm_ai_top_picatinny_rail.bundle",
+			"dependencyKeys": [
+				"cubemaps",
+				"shaders",
+				"assets/commonassets/physics/physicsmaterials.bundle"
+			]
+		},
+		{
+			"key": "assets/content/items/mods/muzzle/muzzle_awm_ai_mb_86x70.bundle",
+			"dependencyKeys": [
+				"cubemaps",
+				"shaders",
+				"assets/systems/effects/smoke.bundle",
+				"assets/commonassets/physics/physicsmaterials.bundle"
+			]
+		},
+		{
+			"key": "assets/content/items/mods/stocks/stock_awm_ai_at_style.bundle",
+			"dependencyKeys": [
+				"cubemaps",
+				"shaders",
+				"assets/commonassets/physics/physicsmaterials.bundle"
+			]
+		},
+		{
+			"key": "assets/content/items/mods/stocks/stock_awm_ai_awm.bundle",
+			"dependencyKeys": [
+				"cubemaps",
+				"shaders",
+				"assets/commonassets/physics/physicsmaterials.bundle"
+			]
+		},
+		{
+			"key": "assets/content/items/mods/stocks/stock_awm_ai_awmf.bundle",
+			"dependencyKeys": [
+				"cubemaps",
+				"shaders",
+				"assets/commonassets/physics/physicsmaterials.bundle"
+			]
+		},
+		{
+			"key": "assets/content/weapons/awm/textures/client_assets.bundle",
+			"dependencyKeys": []
+		},
+		{
+			"key": "assets/content/weapons/awm/client_assets.bundle",
+			"dependencyKeys": [
+				"cubemaps",
+				"assets/content/weapons/awm/textures/client_assets.bundle",
+				"shaders"
+			]
+		},
+		{
+			"key": "assets/content/weapons/awm/weapon_remington_model_700_762x51_container.bundle",
+			"dependencyKeys": [
+				"shaders",
+				"cubemap",
+				"assets/content/weapons/awm/textures/client_assets.bundle",
+				"assets/systems/effects/muzzleflash/muzzleflash.bundle",
+				"assets/content/weapons/animations/spirit_animations.bundle",
+				"assets/content/weapons/animations/simple_animations.bundle",
+				"assets/content/weapons/weapon_root_anim_fix.bundle",
+				"assets/commonassets/physics/physicsmaterials.bundle",
+				"assets/content/weapons/animations/animations.bundle",
+				"assets/content/weapons/additional_hands/client_assets.bundle",
+				"assets/content/weapons/m700/client_assets.bundle",
+				"assets/content/weapons/awm/client_assets.bundle",
+				"assets/content/audio/banks/mosin.bundle",
+				"assets/content/audio/banks/sv-98.bundle",
+				"assets/content/audio/weapons/ak74.bundle",
+				"assets/content/audio/weapons/sks.bundle",
+				"assets/content/audio/weapons/mosin/instr/mosin_round_load_snd",
+				"assets/content/audio/weapons/mr133.bundle",
+				"assets/content/audio/weapons/generic",
+				"assets/content/audio/weapons/sv98.bundle",
+				"assets/content/weapons/m700/weapon_remington_model_700_762x51.animatorcontrollerdata.bundle",
+				"assets/systems/effects/heathaze/defaultheathaze.bundle"
+			]
+		}
+	]
+}

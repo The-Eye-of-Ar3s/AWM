@@ -1,0 +1,10 @@
+{
+	"_id": "barrel_awm_ai_custom_435mm",
+	"_tpl": "barrel_awm_ai_custom_435mm",
+	"parentId": "hideout",
+	"slotId": "hideout",
+	"upd": {
+		"UnlimitedCount": false,
+		"StackObjectsCount": 20
+	}
+}

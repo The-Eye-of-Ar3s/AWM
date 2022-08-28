@@ -1,0 +1,10 @@
+{
+	"_id": "stock_awm_ai_awmf",
+	"_tpl": "stock_awm_ai_awmf",
+	"parentId": "hideout",
+	"slotId": "hideout",
+	"upd": {
+		"UnlimitedCount": true,
+		"StackObjectsCount": 999999999
+	}
+}
