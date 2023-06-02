@@ -1,0 +1,50 @@
+{
+    "templates": {
+        "barrel_awm_ai_custom_435mm": {
+            "Name": "Custom 435mm .338 LM barrel for Arctic Warfare Magnum",
+            "ShortName": "485mm AWM-338",
+            "Description": "Custom-made short barrel for AWM."
+        },
+        "barrel_awm_ai_std_686mm": {
+            "Name": "686mm .338 LM barrel for Arctic Warfare Magnum",
+            "ShortName": "686mm AWM-338",
+            "Description": "Standard barrel for AWM."
+        },
+        "magazine_awm_ai_86x70_5": {
+            "Name": "5-round .338 LM magazine for AWM",
+            "ShortName": "AWM-338-5",
+            "Description": "Single-stack 5-round magazine for Arctic Warfare Magnum."
+        },
+        "mount_awm_ai_top_picatinny_rail": {
+            "Name": "AI Picatinny multi-slot base for Arctic Warfare Magnum",
+            "ShortName": "AWM Rail.",
+            "Description": "Accuracy International scope mount is a universal mount for Arctic Warfare rifles."
+        },
+        "muzzle_awm_ai_mb_86x70": {
+            "Name": "AI AWM muzzle brake for Arctic Warfare Magnum",
+            "ShortName": "AWM-338 MB",
+            "Description": "Standard muzzle brake for Arctic Warfare Magnum, designed to greatly reduce jump, flash and felt recoil, as well as serve as a base for optional iron sights and suppressors."
+        },
+        "stock_awm_ai_at_style": {
+            "Name": "AI AT-style stock for Arctic Warfare Magnum",
+            "ShortName": "AT-style",
+            "Description": "Custom-made stock, design of which is heavily inspired by stocks used on Accuracy International AT-series rifles."
+        },
+        "stock_awm_ai_awm": {
+            "Name": "AI AWM stock for Arctic Warfare Magnum",
+            "ShortName": "AWM Fix.",
+            "Description": "Polymer fixed stock for AWM."
+        },
+        "stock_awm_ai_awmf": {
+            "Name": "AI AWM-F stock for Arctic Warfare Magnum",
+            "ShortName": "AWM-F",
+            "Description": "Polymer folding stock for AWM."
+        },
+        "weapon_ai_awm_338lm": {
+            "Name": "Accuracy International AWM .338 LM sniper rifle",
+            "ShortName": "AWM",
+            "Description": "Renowned for its precision over the long distances, Arctic Warfare Magnum is the result of further development of Arctic Warfare rifle series, designed to chamber magnum rifle cartridges."
+        }
+    },
+    "preset": {}
+}

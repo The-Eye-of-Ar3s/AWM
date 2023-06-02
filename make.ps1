@@ -1,12 +1,9 @@
-npm run clean:environment | out-null
-npm run build:unzipped | out-null
-if (Test-Path -Path C:\Games\ETM\user\mods\AWM\) {
-    Remove-Item -Recurse -Force C:\Games\ETM\user\mods\AWM\ | out-null
+if (Test-Path -Path: C:\Games\DEV\user\mods\AWM\) {
+    Remove-Item -Recurse -Force C:\Games\DEV\user\mods\AWM\ | Out-Null
 }
-mkdir C:\Games\ETM\user\mods\AWM\ | out-null
-Copy-Item -Recurse -Path .\dist\* -Destination C:\Games\ETM\user\mods\AWM\ | out-null
-Remove-Item C:\Games\ETM\user\mods\AWM\make.ps1 | out-null
-Set-Location C:\Games\ETM\ | out-null
+Copy-Item -Recurse -Path .\ -Destination C:\Games\DEV\user\mods\ | Out-Null
+Remove-Item C:\Games\DEV\user\mods\AWM\make.ps1 | Out-Null
+Set-Location C:\Games\DEV\ | Out-Null
 Start-Process powershell {./Aki.Server.exe}
 Start-Process powershell {./Aki.Launcher.exe}
-Set-Location C:\Users\TheEyeOfAr3s\Documents\coding\SPTarkov\AWM\ | out-null
+Set-Location C:\Users\TheEyeOfAr3s\Documents\coding\SPTarkov\AWM\ | Out-Null
