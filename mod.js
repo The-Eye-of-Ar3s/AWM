@@ -141,31 +141,6 @@ class Mod {
         const WeaponPresetItems = item._items;
         // END createPresetThing
 
-        // START addFullRifleToMechanic
-        const traderWeaponPreset = WeaponPresetItems;
-        traderWeaponPreset[0] = ({
-            "_id": "awm_defaultID_parentID", // unique itemID
-            "_tpl": "weapon_ai_awm_338lm", // itemID template to use e.g "5447a9cd4bdc2dbd208b4567" == "Colt M4A1 5.56x45 Assault Rifle"
-            "parentId": "hideout", // not sure what do?
-            "slotId": "hideout", // not sure what do?
-            "upd":
-            {
-                "UnlimitedCount": false, // is unlimited? ...obviously
-                "StackObjectsCount": 10 // how many trader has
-            }
-        })
-
-        tables.traders[traderID].assort.items.push(...traderWeaponPreset);
-
-        tables.traders[traderID].assort.barter_scheme["awm_defaultID_parentID"] = [
-            [{
-                "count": 154127, // quantity needed
-                "_tpl": "5449016a4bdc2d6f028b456f" // item needed, in this case roubles
-            }]
-        ];
-
-        tables.traders[traderID].assort.loyal_level_items["awm_defaultID_parentID"] = 4;
-        // END addFullRifleToMechanic
 
         questIDs.forEach((questID) =>
         {
